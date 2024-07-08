@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding: 50px;
+}
+.table, .table2 {
+    margin: 0 auto;
+    width: 700px;
+
+}
+.table, .row, .title, table {
+    border: 1px solid black;
+}
+img {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+.row1, .th1 {
+    width: 30%;
+    border-right: 1px solid black;
+    font-weight: 700;
+}
+.row1, .row2, .row3, .th1 {
+    display: inline-block;
+    padding: 10px;
+}
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+h1, h3 {
+    text-align: center;
+    margin: 10px;
+}
+header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+}
+button {
+    padding: 8px;
+    margin: 10px;
+    border: none;
+}
+.line {
+    border-bottom: 1px solid black;
+    margin: 35px 0;
+    width: 100%;
+}
+
+.point, .point_2, .point_3 {
+    border: 1px solid black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table2 {
+    display: table;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.rownew, .rownew_title {
+    display: table;
+    width: 650px;
+    text-align: center;
+}
+.thnew, .thnew_2 {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+.thnew_2 {
+    width: 150px;
+}
+.group {
+    display: flex;
+    width: 700px
+}
+.rownew_title {
+    width: 700px;
+}
+li, p {
+    padding: 5px;
+    font-size: 20px;
+}
+article {
+    padding: 0 5px;
+    border: 5px;
+}
+.articles {
+    display: flex;
+    justify-content: center;
+}
+.image_article {
+    width: 302px;
+    height: 200px;
+    display: block;
+    margin: 30px;
+}
+h4 {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
